@@ -20,6 +20,4 @@ export const cryptoApi = createApi({
 });
 
 // Redux toolkit automatically creates hooks for your endpoints
-export const {
-  useGetCryptosQuery
-} = cryptoApi;
+export const { useGetCryptosQuery } = cryptoApi;
