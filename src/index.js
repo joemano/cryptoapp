@@ -8,7 +8,7 @@ import App from './App';
 import store from './app/store';
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/cryptoapp">
     <Provider store={store}>
       <App />
     </Provider>
